@@ -1,0 +1,39 @@
+name: voting_app
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  awesome_notifications: ^0.9.2
+  cached_network_image: ^3.3.1
+  cupertino_icons: ^1.0.6
+  dio: ^5.4.1
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.0
+  flutter_bloc: ^8.1.4
+  flutter_randomcolor: ^1.0.14
+  google_fonts: ^6.2.1
+  http: ^1.2.1
+  json_annotation: ^4.8.1
+  pinput: any
+  retrofit: ^4.1.0
+
+dev_dependencies:
+  build_runner: ^2.4.8
+
+  flutter_lints: ^3.0.0
+
+  flutter_test:
+    sdk: flutter
+
+  json_serializable: ^6.7.1
+  retrofit_generator: ^8.1.0
+
+flutter:
+  uses-material-design: true
